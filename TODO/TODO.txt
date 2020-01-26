@@ -1,0 +1,438 @@
+
+Spiele Anleitung
+----------------
+only german so far
+
+Es wäre ev. gescheiter, wenn gleichaltrige Mädchen (im aktiv) das mit den gleichaltrigen Jungs (im passiv) spielen
+* akzeptanz
+* weniger angst
+* kein Revictimizing elterlicher Gewalt
+* ich hatte viel Vertrauen in gleichaltrige Mädchen
+* gleichaltrige Mädchen sind knuddliger also z.B. klimakterisch-rumhitlernde Mütter
+* gleichaltrige schüchtert ev. Kinder die fast alle eher abgerichtet als erzogen wurden weniger ein
+  (so wie man das Flaschenspiel eher nicht mit den El(s)tern™ spielen will)
+
+* Ab 40 Karten im Deck wird es eher mühsam mit dem raussuchen, allenfalls in 2 Decks unterteilen
+
+Forderung eines gleichaltrigen Weibleins:
+* Die doofen doofen Jungs müssen das runterladen, drucken, beim ausschneiden helfen wir Mädchen allenfalls
+
+Forderung eines gleichaltrigen Männleins:
+nach dem ihr das Männlein überführt hat dass es Pronos anschaut lasst ihm das Deck aleine, sonst aktivieren die "netten" älteren Herren und Klimakterien über die Basisemotion Scham Vermeidungsverhalten, im übrigen wurden auch schon 8 Jährige weilblen von den eltern dabei gestalkt ähm erwischt...
+
+
+Probleme zum ganzen Spiel
+-------------------------
+
+* das schamanische Interface der 1950er / das hexerei API verhindert die aufnahme des Datenpunktes über stimoceiver / wo2005055579a1 Ausserdem hat da glaub schon jemand ein "du bist uncool bis verflucht, wenn du mit diesen Karten spielst" drauf gemacht (aumented reality mit ccd und pattern-recod?) oder ein "ich lese Deine intimsten Gedanken mit dem Deck"-Spell
+
+* Problem Mainframe: Overlay Satans (mit ähnlichen Dingen die verhindern dass der Spieler den Aha-Effekt erlebt, "kennt ICH schon") entfernen
+
+
+* allenfalls für die ganz schlimmen Karten (z.B. die SCC BDSM Karte) irgend ein FSK, was dann ev Kinder psychotisch machen würde
+
+* allenfalls über ein gif/jpg/png/pdf zum drucken, dann wärs auch für windows brauchbar dann wäre die hürde für die jüngeren ungeborenen Pinguine kleiner oder ein DOS SCRIPT oder POWERshell
+
+☐ 60% Card Generator (Software) scripts 
+ => ev svg Library oder die Library von inkskape etc...
+ => ev als deb mit einem Grundstock von Karten / Vorlagen / Beispielen
+
+☐ Sicherstellen, dass wenn jemand mit mehr Rechenpower ein Overlay zu
+  diesem "Spiel" macht, dass das "Spiel" das abfängt und der Jung-Hacker/-Häckse
+  erkennt dass ein weiterer Overlay drauf ist
+
+
+Offene Geschichtliche Fragen
+----------------------------
+
+Weshalb fehlen bei...
+ * Tarot
+ * Panini Bildern/Karten
+ * Magic the Gathering
+ * Pokemon Karten
+...etc. die Technologie Karten, z.B. bei Magic hat es nur diese ollen "Elemente-Karten"
+
+ * bzw. als Addon / Hack an Tarot, Magic, Pokemon (da müsste man aber z.B.
+   das Format und das Design ändern
+
+
+Ideen zum ganzen Spiel
+----------------------
+
+☐ Phylogenetischer Stammbaum - Karte
+
+☐ Spracherkennung / Sprachlicher Fingerabdruck - Karte
+ ☐ FFT
+ ☐ im Sinne von Worthäufigkeit, Satzbau und gramatikalischen Merkmalen
+
+☐ denkbar Methoden und Technologie-Karten zu nem standard hajo banzhaf Deck zu Drucken (anderes Format)
+
+☐ Hinweis auf die printAll.sh je nach Format im Verzeichnis
++=Englisches TODO
+
+☐ quartett allenfalls mit so etwas wie digitales Positit "craften":
+https://www.heise.de/newsticker/meldung/Digitales-Post-it-laeuft-ohne-Stromzufuhr-3357347.html
+
+☐ iPhone / Android / HTML5 App
+ 1. um Karten darzustellen
+ 2. Karten-Kombinationen
+ 3. Online-Spiel
+
+☐ z.B. bei Druck Suhr anfragen, was es kosten würde, solche Karten produzieren zu lassen => können die nicht
+
+☐ für die Online Variante könnte man auch animierte gifs nehmen, z.B. für
+  die hackaday bewegungsfelder-karte
+
+Ideen für neue Karten
+---------------------
+☐ c3 Kaffe Karte
+ => ev Kritzelkomplex Grafik? mal fragen...
+
+☐ c4 sonstige drogen chemik substanzen, Chemikanten-Sündenbock zu Hülf
+
+☐ Michael Foucault Karte
+
+☐ Foucaultesches Sexualitäts Dispiositiv
+
+☐ Rust™-BOT karte mit stein und allenfalls in weiss wie die SkinnerBOX
+
+☐ Religions-Karten oder coexist-Karte ☪☸e✡i☯†
+
+☐ schamanisches Interface / Augmented Reality Karte
+
+☐ ev. QR-Code für jede Karte mit ganzem (z.B. Wikipedia) Artikel, wie klein kann man die machen?
+
+☐ ev. Symbolik- / Ikonen-Karten (rote rose / weiss rose / hakenkreuz / Krone / Stock / Ball / ...)
+ => ev. Bedeutung 1, Bedeuting 2, => wie im C++, überladen von Operatoren, bzw. wärs ja ein überladen von symbolen, ev. mit der Access Based Enm karte spielen
+
+☐ PECS-Karte (ev. Rekursion mit diesem Quartett)
+
+☐ Abraxas
+
+☐ Gefährliche Brandung / Hang-Loose Archetyp oder Oceans11 Archetyp
+
+☐ Konstitutionelle Rechtssprechung die "dank" der US überwachung medienwirksam
+  völlig den falschen Spuren nachrennt und z.B. 20 Jährige "Hacker" in den
+  Fokus rückt statt die 100'000 professionellen Blackhat NSA/CIA Hacker
+
+☐ Anger Therapy <=> Amygdala Implantat, das Targeted Individual ins Lächerliche ziehen => RageQuit++ => Amok/Suizid
+
+☐ die skinnerBOX besteht aus mehreren Elemente:
+ 1: Abrichtungs-Raum
+ 2: implantat
+ 3: mobile Transmitter fürs "Feld" um die konditionierten Verhaltensmuster Unterwegs abzurufen
+
+☐ z.B. Kühlschrank mit Bluetooth und Active Denial System 230V*10A
+
+☐ Auto VS Fahrrad :: Reichweite
+
+☐ Plüschtier-Nachfolger-Karte, Yay, Objektfixierung auf z.B. eine coolen Computer, Computer-Spiel oder Auto
+  (Vermeidungsverhalten => Coping Strategie um von Unsicherheit abzulenken da man im Kapitalismus ja immer lügen muss ähm "perfekt" sein muss)
+  PC: "yay schau ich hab word SELBER installiert" (diskrete mathematik, schublade für kind?) und chrome upgedated => da meine ich 40 jährige und älter für den zynismus bei jüngeren bitte keinen zynismus !
+
+☐ Objekt-Fixierungskarte
+  => z.b. aufstellungen,in Mitte eine Objektfixierung, einen ersten ring beeinflusser zB 1980er, und einen definitv "geheimen" zweiten Ring aus 1950er Pädos
+
+☐ uni karte / schule karte / jurPerson karte / angeber karte / mastertitel umsichwerfer karte / militär architektur beim schulhaus gebäude => Low self-esteem
+
+☐ DSM <=> MKULTRA Karte 1970 "Drogenexperimente" = Objektfixierung, stelle mit loop recorder...
+ ☐ RFID Karte ("only" Tracking) / RFID Powder / bzw, 1x rfid karte / 1x rfid gebäude infrastruktur karte
+
+☐ Donkey Kong als vater-archetyp 2?
+
+☐ Römer aus Astrix und Obelix würden sich als weiterer Kriegerarchetyp Eignen, z.B. da wo alle Römer betrunken nach dem Fass mit Zaubertrank suchen
+
+☐ Movie Archetyp logo schrottig, weniger zeugs, eindeutigeres logo
+
+☐ dazwischen ev noch die NSA - Survaillance und die "I know what you did last summer"-Karte
+ ☐ MOD: dann die Sekretärinnen Karte wäre institutionelle diskriminierung bzw. erhält man vom HR nur den Jobe wenn man so "funktioniert", also um den Job zu kriegen muss man eine "Totsch" sein
+
+☐ NEO aus Matrix Karte
+ 
+☐ Matrix Algebra Karte und part2 die 100k auf dieser karte☐ 100'000 professionelle NSA/CIA hacker
+
+☐ medienwirksame medien / hollywood karte
+
+☐ behavioral sciences 
+
+☐ "Clark Hull"-Formel Karte
+
+☐ Furby Karte, oder Furbies mit Server Karte
+
+☐ Low-self esteem karte
+
+☐ pony karte
+
+☐ mlp karte
+
+☐ fondue chinoise mit pferdefleisch karte aber nur im deck für jungs und nicht-vegetarier bzw. mit der Reisschüssel Karte aus dem Film "The Goden Child" spielen (nicht dass ich so argumentierne würde aber es gibt da irgendwelche 1950er Pädos die so etwas tun)
+
+☐ computer/playstation karte als nachfolgerkarte für grosse jungs statt dem plüsch tier
+
+☐ Bewegungsfelder Karte => Probelm das ist viel verständlicher mit der Animation
+ 
+☐ uni karte / schule karte / jurPerson karte / angeber karte / mastertitel umsichwerfer karte / => Low self-esteem
+
+☐ DSM <=> MKULTRA Karte 1970 "Drogenexperimente" = Objektfixierung, stelle mit loop recorder...
+
+☐ Lineare Optimierung '' (nicht das mathe zeugs)
+
+☐ z.B. Fussball Archetypen als "geheime" Metasprache
+
+☐ echo chamber
+
+☐ Röhre / Tunneldiode Karte => ev. eher etwas für das Hackers-Cardgame
+
+☐ ev. Sternzeichen Karten / Zodiac Sign Karten? um den link zu Esotherik-Heftchen zu machen, wo ich immer gedacht habe, die spinnen ja, aber esotherik ist afaik auch ein koheräntes Mental Operating System, Archetypen z.B. für Sozio-Psychologie gar nicht so blöd wie ich als Kind angenommen habe
+
+☐ Blooms Taxonomy Of Educational Objectives Karte, bzw. zu gross also für jeden Sub-Tree (z.B. Psychoaffektive Dimension) eine Karte
+
+☐ Geons / Grafische Grundfiguren Karte
+
+☐ Einzelblid Einblendung am TV karte
+
+☐ Endokrinologie Karte
+ ☐ Dopamin
+ ☐ Serotonin
+ ☐ Adrenalin
+ ☐ Testosteron
+ ☐ Ostrogen
+ ☐ Oxytocin => Link langfirstige Päärchenbildung bei Ratten
+ ☐ Vasopressin
+ ☐ ...
+
+☐ ev. Waffen-Karte zum Krieger Archetypen? / stichwaffenkarte das man mit einem stimoceiver oder einem spinalcord implantat craften kann als schlechtes beispiel?
+
+☐ Ambivalenz Karte (Die Laborratte bist DU VS der TV sagt mir ich bin Super wenn ich ein cooles Auto habe)
+
+☐ "Dolchstoss Lüge"-Karte
+
+☐ Prädestinations-Karte
+
+☐ Vergewaltiger-Terrorist-Karte
+Hinweis dass 93% echte Vergewaltigungen sind und die 7% die Fehlanschuldigungen explizit vom cia insturmentalisiert 
+ => Schlammschlacht bis Lynchmord induzieren und dann den neuen Agenten erpressen und benutzen
+
+☑ Trauma Based Mindcontrol Karte
+ => ev. mit unechtem blutigen bild craften, oder mit fleischwunden foto von mir...
+
+☐ "What the hell effect"-Karte
+
+☐ Pädo Zombi Karte
+
+☐ QAM64 / Komplexe Ebene Karte (Kanal: Akkustisch, AluHüte...)
+
+☐ Häufigkeits Analyse Karte
+
+☐ Vektor/Matrix Mathe ähm Häckserei Karte
+
+☐ Basis Emotionen Karte
+ ☐ Scham
+ ☐ Angst
+ ☐ Genuss
+ ☐ Narzistischer Machtmissbrauch Karte
+
+☐ Enneagramm - karte?
+ ☐ religions / religionen karte / coexist karte
+
+☐ clarc hull formula karte
+
+☐ crack-tro karte?
+
+☐ Ritzen Karte 
+
+☐  Kopfschmerzen Impalntat / Kopf auf den Boden knallen Implantat => Opfer davon abhalten können die Täterschaft zu nennen
+
+☐ heikel, maximaler psychologischer kollateral damage durch die vergewaltigung
+  von kinder und ermordung von kindern in shculen, das bild dsa faceook zensieren will mit den soldaten die kinder in vietnam vergewaltigen, aber allenfalls einen zensurbalken über die kinder machen oder nachzeichnen, sonst pietätlos, und auch die karte wäre pietätlos wenn sie die pietätlosigkeit, die echten täter nciht anprangern würde und diese würde man dann mit der Amygdala-Implantat karte spielne und verschleiert die ganze comint des cia terrornetzwerks => allenfalls nicht im standard - deck das man auch den kindern geben kann sondern in einem FSK grösser 18 oder grösser 30 deck
+
+☐ OOP Karte 
+
+☐ BlueJ => ev. eher für's Hackers-Cardgame
+
+☐ Milgram Experiment Karte
+
+☐ Cyber-Waterboarding technologie / behavioural "sciences" (Medulla Oblangata)
+
+☐ Generationen-Konflikt Karte? früher waren es die grünen männchen, ehute sind sie blau z.B. im film Avatar auf pandora / also stanford prison experiment schon mal opt in für den fall dass man main-stream medien verwendet... 
+  brainslug mit dazu gehörender algoritmen karte oder ki karte, wie erkennt es, was erkennt er, kann z.B. z.B. dogar die ganze roboter-achs-matrix
+  aus eeg daten generiert werden? also dass z.B. der CAD Arbeitsplatz für den lehrling, nicht zwingend (nur) grundfiguren wie kreise, striche, links, rechts 
+  das lehrlings hacken möchte sondern dass es für jede kärperhaltung ein spezifisches eeg pattern gibt RX ev sogar TX, oder dass das TX solange abgespielt
+  wird, dass das unterbewusstsein das lernt
+
+☐ Brain-Modem als formulierung nehmen, modem impliziert eine gegenstelle, und oder einen Provider, den Provider den diensteleister in die Pflicht nehmen, und das brain modem hätte von haus aus irgend eine TR-069 Funktionalität
+
+☐ Kerberos / Kerberos lern-karten
+
+☐ Penner/Alufolien "Spinner"/Aluburka Archetyp
+
+☐ http://www.5bn.de/ => Konzept Spuren-Systen in diesem Video, also so zu sagen ein StarterKIT an Suggestionenen mit dem dann mehr "Achievements" ungelockt werden aber defacto ists ein übles Marketing Ausbeutungs Konzept, Ablasshandel Satans
+
+(☑) Sozio-Psychologie Deesign-Pattern => separate karte? => nö für einen support-sklaven ist es eigentlich cool dienstleistung erbringen zu dürfen
+
+☐ (Denk)modelle Karten
+ ☐ Freud
+  ☐ über ich (z.B. Mainframe bild)
+  ☐ ich (z.B. Töggel Bild
+  ☐ es-ich (Kind-ich: z.B. kinder kätzchen oder kind)
+
+☐ Stokholm-/Helsinki-Syndrom Karte
+
+☐  HUMINT-Choosen-Plaintext-Attack card
+
+☐  introjektion card
+
+☐ Action Recognition Karte
+
+☐ ev. Zyankali oder bio-Waffen Krate die mit chemitrode gecraftet
+  wird oder eine Atomwaffe die mit einer Bluetooth barke gecreaftet
+  wird, für die unbegaben kinder als sinnloses killer argument
+  um umbedingt gewinnen zu können => wer diese karte spielt würde
+  dann das ganze deck verlieren...
+
+☐ "Forbidden Game"/"Forbidden Gang" Game-card
+  -the game
+  -fight club
+  -warez trading
+  -other usecases
+
+☐ die kommunizierenden röhren, bzw From Hell, das herz gebastel des irren arztes, bzw. antagonierende "medikation" im sinne eines momble kanals mit automatisierter statistik die zum ziel hat leute gegeneinander aufzuhetzen, also ein ungesehener dritter, vierter, pädo irgend so etwas der dann wie pontius pilatus seine hände in unschuld wäscht....
+
+☐ Tempest / inverse-Tempest / Seitenband-Atacke sowohl RX als auch TX - Karte
+
+☐ Verschwörungstheorien werden über einen längeren zeitraum aufgespielt (z.B. looprecorder nachts) um eine richtige Verschwörung zu vertuschen
+
+☐ MikrowellenSpektroskopie
+
+☐ Archetyp: das orakel aus matrix teil 1: mystify me VS (gleichaltiger) Engelarchteyp der Opfern hilft Satan zu entkommen wie im Buch Krabatt
+
+die existenz von Hysterese / Remanenz würde allenfalls auch implizieren, dass irgend ein Depp ein nicht-löschbares (remanenz-save) Stimuli programmieren würde
+
+x=100; loop
+{
+ x*=0.95;
+ x*Peitsche && Stimuli;
+ x*Zuckerbrot && Stimuli;
+}
+
+☐ Binaurale_Beats und mögliche Effekte auf z.B. das Befinden 
+
+☐ "Little Albert Experiment"-Karte
+
+☐ Worrier Elite Karte / Master of Hardcore Karte <=> Low self esteem karte
+
+☐ Spielestrategie (https://de.wikipedia.org/wiki/Kategorie:Spieltheorie)
+ ☐ kooperativ 
+ ☐ antagnoierend 
+ ☐ gemsicht... 
+ ☐ ego... (der de facto satan dient, dopamin gesteuert)
+
+☐ game engine 2. Karte, RUST game charakter mit stein...
+
+☐ "ignoriere diese karten"-karte (Simpsons: Truck-Truck-Truck, oder Brotmaschinen-Brotmaschinen-Maschine)
+ => bzw. generisch: Rekursion / Autopoiese
+ => Erziehungspsychologie-Jeopardy: was sind dämliche Fussball Karten und warum haben die überall auf schweizer Kinder-spielpläetzen Piraten-schiffe hingestellt,effekt: "ah kenn ich schon, piraten-karten..., ignorieren" / btw. frühkindlich aversion erzeugen mit dem einen Globalen Assessination Grid gegen diese komische Einthemen-Partei...
+
+☐ "het do öpper sies müesli ned gha" karte
+
+☐ "Männergrippe"-Karte
+ das S in Männergrippe steht für Tapfer
+
+☐ Anne Frank und Oskar Schindler Archetypen Karte zur Sophie Scholl karte
+   => Gleiche Werte, anderer Ausgang/Werdegang, Geschichte
+
+
+Hacking Cards:
+-------------
+Social Security Nuber (AHV)
+
+Entity Relationship Model karte
+
+Cumulus karte
+
+☐ das Orakel aus matrix, oder das Orakel aus Monkey Island / Priates of the carebbean - Karte, ev auch das buch "Das Druidentor, ähnlicher Archetyp"
+
+
+Stretch scripts, no deinstall but killall clipit
+
+
+intelME Hardware Backdoor Karte um diese mit der Stuxnet Karte zu craften
+
+http protokoll um es mit der stimoceiver pattern recognition und dem access based ennumeration zu craften
+
+☑ Luhmann: Soziale Systeme: System, Element, Relation, Konditionierende auf Relation (z.B. Bibel, Gesetzestexte, Erwerbsregel (Ferengi), Das Kapital (Marx))
+
+☐ Leag of Legends / Team Fortress Archetypen Karten
+
+☐ ödipus karte
+
+☐ orgon akkumulator karte
+
+☐ Reuse für Kinder und jugendpsychiatrie in der station p5.2 in königsfelden
+  hackerspace oder hobbyraum *MALWARE* wäre irgendwie artgerechter
+
+☐ retina ccd karte
+
+☐ active denial sysem
+
+☐ descart karte
+
+☐ leibniz karte
+
+☐ humbold karte
+
+☐ faucaultsches sexualitästsdispositiv karte (VERKAUFS"förderung")
+
+☐ semaphore karte (z.B. stuhl der im weg steht mit RFID)
+
+☐ mikrowellenspektroskopie karte
+
+☐ obere untere dreiecksmatrix, chesterfiled zigis mit piraten tuch
+
+☐ demoscene karte
+
+☐ set and loop oder sample and hold karte
+
+☐ rawhammer atack karte
+
+☐ rubberhose psychiatrie karte
+
+☐ severety wie bei MONITORING Karte
+
+☑ MSBP karte
+
+
+☐ ausreden katalog kartei karten karte
+
+☐ sexuelle integrität karte wo der b* besondersgerne gegen 
+  junge weibliche patienten schiesst
+
+☐ fr dr. Co. weiss dass einige pfleger selber täter sind
+  stanford prison experiment(e)
+  
+karten kombination
+☐ Verletzung am Knie, hand oder zB Herzingarkt + Implantat an dieser stelle
+  + schmerzen revictimizen um das trauma auszuweiten und als mindcontrol
+  trigger STGB180
+  low tec [lambda]/2 = kehrwert der frequenz
+  ++ clark hull fromel für den algorithmus 
+
+☐ bitching karte gefolgt von der "die fresse polieren" Karte für den
+  vater oder den zuhälter / except consensual unter gleichaltrigen 
+  für wissenschaftliche zwecke mit genehmigung von medic und behörden
+
+ETH <=> EPFL: mutmassliher SDR && Säure in körperpflege produkten RAGE karte
+  Link Tempest (codename) link auf die epfl videos
+ETH kontert worst case mit bioterrorismus auf das aufdecken
+starterkit der amerikaner (tree letter company) war vermutlich das
+versklaven einiger verdingkinder mit eth maschinen
+
+☐ "schattenorganisation unterwandert wie die galadio" Karte
+
+☐ hierarchie karte
+
+☐ Penetration "Test" = MKULTRA Aktivierung Karte ev mit Verdingkind karte
+
+
+WdZLPZZRP9Q
+ 

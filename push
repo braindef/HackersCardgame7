@@ -1,0 +1,5 @@
+  369  git origin
+  370  git remote show origin
+  371  git remote -v
+  372  git remote set-url --push origin git@github.com:braindef/HackersCardgame6.git
+

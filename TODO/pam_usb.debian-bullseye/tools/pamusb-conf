@@ -1,0 +1,324 @@
+#!/usr/bin/env python2
+#
+# Copyright (c) 2003-2007 Andrea Luzzardi <scox@sig11.org>
+#
+# This file is part of the pam_usb project. pam_usb is free software;
+# you can redistribute it and/or modify it under the terms of the GNU General
+# Public License version 2, as published by the Free Software Foundation.
+#
+# pam_usb is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program; if not, write to the Free Software Foundation, Inc., 59 Temple
+# Place, Suite 330, Boston, MA  02111-1307  USA
+
+
+import dbus
+import sys
+import os
+from xml.dom import minidom
+
+bus = dbus.SystemBus()
+obj = bus.get_object('org.freedesktop.UDisks2', '/org/freedesktop/UDisks2')
+om = dbus.Interface(obj, 'org.freedesktop.DBus.ObjectManager')
+block_infos = []
+drive_infos = []
+
+class Device:
+	def __init__(self, block_info, drive_info):
+		self.block_info = block_info
+		self.drive_info = drive_info
+		self.vendor = drive_info.get('Vendor')
+		self.product = drive_info.get('Model')
+		self.serialNumber = drive_info.get('Serial')
+		self.uuid = block_info.get('IdUUID')
+
+def listOptions(question, options, autodetect = True):
+	if autodetect == True and len(options) == 1:
+		print question
+		print "* Using \"%s\" (only option)" % options[0]
+		print
+		return 0
+
+	while True:
+		try:
+			print question
+			for i in range(len(options)):
+				print "%d) %s" % (i, options[i])
+			print
+			sys.stdout.write('[%s-%s]: ' % (0, len(options) - 1))
+			optionId = int(sys.stdin.readline())
+			print
+			if optionId not in range(len(options)):
+				raise Exception
+			return optionId
+		except KeyboardInterrupt: sys.exit()
+		except Exception: pass
+		else: break
+
+def shouldSave(options, items):
+	print "\n".join(["%s\t\t: %s" % item for item in items])
+	print
+	print 'Save to %s ?' % options['configFile']
+	sys.stdout.write('[Y/n] ')
+	response = sys.stdin.readline().strip()
+	if len(response) > 0 and response.lower() != 'y':
+		sys.exit(1)
+
+def prettifyElement(element):
+	tmp = minidom.parseString(element.toprettyxml())
+	return tmp.lastChild
+
+def writeConf(options, doc):
+	try:
+		f = open(options['configFile'], 'w')
+		doc.writexml(f)
+		f.close()
+	except Exception, err:
+		print 'Unable to save %s: %s' % (options['configFile'], err)
+		sys.exit(1)
+	else:
+		print 'Done.'
+
+def addDevice(options, block_infos):
+	devices = []
+
+	for m,n in om.GetManagedObjects().iteritems():
+		drive_info = n.get('org.freedesktop.UDisks2.Drive', {})
+		for block_info in block_infos:
+			Drive = block_info.get('Drive')
+			if Drive == m and drive_info.get('ConnectionBus') == 'usb' and drive_info.get('Removable'):
+				devices.append(Device(block_info, drive_info))
+
+	if len(devices) == 0:
+		print 'No devices detected. Try running in verbose (-v) mode to see what\'s going on.'
+		sys.exit()
+	device = devices[listOptions("Please select the device you wish to add.", devices)]
+
+	try:
+		doc = minidom.parse(options['configFile'])
+	except Exception, err:
+		print 'Unable to read %s: %s' % (options['configFile'], err)
+		sys.exit(1)
+
+	devs = doc.getElementsByTagName('devices')
+
+	# Check that the id of the device to add is not already present in the configFile
+	for devices in devs:
+		for d in devices.getElementsByTagName("device"):
+			if d.getAttribute("id") == options['addDevice']:
+				msg =  [ '\nWARNING: A device node already exits for new device \'%s\'.',
+						 '\nTo proceed re-run --add-device using a different name or remove the existing entry in %s.' ]
+				print '\n'.join(msg) % (options['addDevice'], options['configFile'])
+				sys.exit(2)
+
+			if d.getElementsByTagName("vendor")[0].childNodes[0].data == device.vendor and \
+				d.getElementsByTagName("model")[0].childNodes[0].data == device.product and \
+				d.getElementsByTagName("serial")[0].childNodes[0].data == device.serialNumber and \
+				d.getElementsByTagName("uuid")[0].childNodes[0].data == device.uuid:
+				print "The device already binding one of users."
+				sys.exit(2)
+
+	shouldSave(options,[
+		('Name', options['addDevice']),
+		('Vendor', device.vendor or "Unknown"),
+		('Model', device.product or "Unknown"),
+		('Serial', device.serialNumber),
+		('UUID', device.uuid)
+		])
+
+	dev = doc.createElement('device')
+	dev.attributes['id'] = options['addDevice']
+
+	for name, value in (('vendor', device.vendor),
+			('model', device.product),
+			('serial', device.serialNumber),
+			('uuid', device.uuid)):
+		if value is None or value == '':
+			continue
+		e = doc.createElement(name)
+		t = doc.createTextNode(value)
+		e.appendChild(t)
+		dev.appendChild(e)
+
+	# Disable one time pads if there's no device UUID
+	if device.uuid == '':
+		e = doc.createElement('option')
+		e.setAttribute('name', 'one_time_pad')
+		e.appendChild(doc.createTextNode('false'))
+		dev.appendChild(e)
+
+	devs[0].appendChild(prettifyElement(dev))
+	writeConf(options, doc)
+
+def addUser(options):
+	try:
+		doc = minidom.parse(options['configFile'])
+	except Exception, err:
+		print 'Unable to read %s: %s' % (options['configFile'], err)
+		sys.exit(1)
+
+	users = doc.getElementsByTagName('user')
+	for user in users:
+		if user.getAttribute('id') == options['addUser']:
+			print "User already exist."
+			sys.exit(1)
+
+	devSection = doc.getElementsByTagName('devices')
+	if len(devSection) == 0:
+		print 'Malformed configuration file: No <devices> section found.'
+		sys.exit(1)
+	devicesObj = devSection[0].getElementsByTagName('device')
+	if len(devicesObj) == 0:
+		print 'No devices found.'
+		print 'You must add a device (--add-device) before adding users'
+		sys.exit(1)
+
+	devices = []
+	for device in devicesObj:
+		devices.append(device.getAttribute('id'))
+	device = devices[listOptions("Which device would you like to use for authentication ?",
+		devices)]
+
+	shouldSave(options, [
+		('User', options['addUser']),
+		('Device', device)
+		])
+
+	users = doc.getElementsByTagName('users')
+	user = doc.createElement('user')
+	user.attributes['id'] = options['addUser']
+	e = doc.createElement('device')
+	t = doc.createTextNode(device)
+	e.appendChild(t)
+	user.appendChild(e)
+	users[0].appendChild(prettifyElement(user))
+	writeConf(options, doc)
+
+def shouldRemove(name, value):
+	print 'Are you sure remove %s of %s ?' % (name, value)
+	sys.stdout.write('[Y/n] ')
+	response = sys.stdin.readline().strip()
+	if len(response) > 0 and response.lower() != 'y':
+		sys.exit(1)
+
+def rmUser(options):
+	rm = None
+	try:
+		doc = minidom.parse(options['configFile'])
+	except Exception, err:
+		print 'Unable to read %s: %s' % (options['configFile'], err)
+		sys.exit(1)
+
+	users = doc.getElementsByTagName('user')
+	if len(users) == 0:
+		print 'No user found.'
+		sys.exit(1)
+
+	for user in users:
+		if user.getAttribute("id") == options['rmUser']:
+			rm = user
+			break
+
+	if rm is not None:
+		shouldRemove("user", options['rmUser'])
+		rm.parentNode.removeChild(rm)
+		writeConf(options, doc)
+	else:
+		print "No such user."
+
+def rmDevice(options):
+	rm = None
+	try:
+		doc = minidom.parse(options['configFile'])
+	except Exception, err:
+		print 'Unable to read %s: %s' % (options['configFile'], err)
+		sys.exit(1)
+
+	devices = doc.getElementsByTagName('device')
+	if len(devices) == 0:
+		print 'No device found.'
+		sys.exit(1)
+	for device in devices:
+		if device.getAttribute("id") == options['rmDevice']:
+			rm = device
+			break
+
+	if rm is not None:
+		shouldRemove("device", options['rmDevice'])
+		rm.parentNode.removeChild(rm)
+		writeConf(options, doc)
+	else:
+		print "No such device."
+
+import getopt
+
+def usage():
+	print 'Usage: %s [--help] [--verbose] [--config=path] [--add-user=name | --add-device=name | --rm-user=name | --rm-device=name]' % os.path.basename(__file__)
+	sys.exit(1)
+
+try:
+	opts, args = getopt.getopt(sys.argv[1:], "hvd:nu:c:r:R:",
+			["help", "verbose", "add-device=", "add-user=", "config=", "rm-user=", "rm-device="])
+except getopt.GetoptError:
+	usage()
+
+if len(args) != 0:
+	usage()
+
+options = { 'addDevice' : None, 'addUser' : None,
+		'configFile' : '/etc/pamusb.conf', 'verbose' : False, 'rmUser' : None, 'rmDevice' : None }
+
+for o, a in opts:
+	if o in ("-h", "--help"):
+		usage()
+	if o in ("-v", "--verbose"):
+		options['verbose'] = True
+	if o in ("-d", "--add-device"):
+		options['addDevice'] = a
+		break
+	if o in ("-u", "--add-user"):
+		options['addUser'] = a
+		break
+	if o in ("-c", "--config"):
+		options['configFile'] = a
+	if o in ("-r", "--rm-user"):
+		options['rmUser'] = a
+		break
+	if o in ("-R", "--rm-device"):
+		options['rmDevice'] = a
+		break
+
+if options['addDevice'] is None and options['addUser'] is None and options['rmUser'] is None and options['rmDevice'] is None:
+	usage()
+
+if options['addDevice'] is not None:
+	try:
+		for k,v in om.GetManagedObjects().iteritems():
+			block_info = v.get('org.freedesktop.UDisks2.Block', {})
+			if block_info.get('IdUsage') == "filesystem":
+				block_infos.append(block_info)
+		addDevice(options, block_infos)
+	except KeyboardInterrupt:
+		sys.exit(1)
+
+if options['addUser'] is not None:
+	try:
+		addUser(options)
+	except KeyboardInterrupt:
+		sys.exit(1)
+
+if options['rmUser'] is not None:
+	try:
+		rmUser(options)
+	except KeyboardInterrupt:
+		sys.exit(1)
+
+if options['rmDevice'] is not None:
+	try:
+		rmDevice(options)
+	except KeyboardInterrupt:
+		sys.exit(1)

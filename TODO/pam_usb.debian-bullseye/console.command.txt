@@ -1,0 +1,5 @@
+dbus-send --system --print-reply \
+   --dest=org.freedesktop.UDisks2 \
+   /org/freedesktop/UDisks2/block_devices/loop0 \
+   org.freedesktop.DBus.Properties.GetAll \
+   string:"org.freedesktop.UDisks2.Block"

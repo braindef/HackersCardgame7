@@ -1,0 +1,98 @@
+<html lang="de" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>durchgestrichen schreiben</title>
+    <meta name="description" content="Schreiben einfach durchgestrichen ;) ̶v̶̶e̶̶r̶̶k̶̶e̶̶h̶̶r̶̶t̶-̶h̶̶e̶̶r̶̶u̶̶m̶-̶s̶̶c̶̶h̶̶r̶̶e̶̶i̶̶b̶̶e̶̶n̶̶.̶̶d̶̶e̶" />
+    <meta name="keywords" content="durchgestrichen schreiben verkehrt heum schreiben auf dem kopf schülervz meinvz studivz svz durchgestrichene schrift durchgestrichene buchstaben durchgestrichener text" />
+
+    <script language="JavaScript">
+    <!--Geklaut von http://verkehrt-herum-schreiben.de/durchgestrichen-schreiben/ TNX :)-->
+function replace() {
+ var result = replaceString(document.f.original.value.toLowerCase());
+ document.f.replaceped.value = result;
+}
+
+function replaceString(aString) {
+ var last = aString.length - 1;
+ var result = new Array(aString.length)
+ for (var i = last; i >= 0; --i) {
+  var c = aString.charAt(i)
+  var r = replaceTable[c]
+  result[last + i] = r != undefined ? r : c
+ }
+ return result.join('')
+}
+
+var replaceTable = {
+0 : '\u0336'+'0'+'\u0336',
+1 : '\u0336'+'1'+'\u0336',
+2 : '\u0336'+'2'+'\u0336',
+3 : '\u0336'+'3'+'\u0336',
+4 : '\u0336'+'4'+'\u0336',
+5 : '\u0336'+'5'+'\u0336',
+6 : '\u0336'+'6'+'\u0336',
+7 : '\u0336'+'7'+'\u0336',
+8 : '\u0336'+'8'+'\u0336',
+9 : '\u0336'+'9'+'\u0336',
+a : '\u0336'+'a'+'\u0336',
+b : '\u0336'+'b'+'\u0336',
+c : '\u0336'+'c'+'\u0336',
+d : '\u0336'+'d'+'\u0336',
+e : '\u0336'+'e'+'\u0336',
+f : '\u0336'+'f'+'\u0336',
+g : '\u0336'+'g'+'\u0336',
+h : '\u0336'+'h'+'\u0336',
+i : '\u0336'+'i'+'\u0336',
+j : '\u0336'+'j'+'\u0336',
+k : '\u0336'+'k'+'\u0336',
+l : '\u0336'+'l'+'\u0336',
+m : '\u0336'+'m'+'\u0336',
+n : '\u0336'+'n'+'\u0336',
+o : '\u0336'+'o'+'\u0336',
+p : '\u0336'+'p'+'\u0336',
+q : '\u0336'+'q'+'\u0336',
+r : '\u0336'+'r'+'\u0336',
+s : '\u0336'+'s'+'\u0336',
+t : '\u0336'+'t'+'\u0336',
+u : '\u0336'+'u'+'\u0336',
+v : '\u0336'+'v'+'\u0336',
+w : '\u0336'+'w'+'\u0336',
+x : '\u0336'+'x'+'\u0336',
+y : '\u0336'+'y'+'\u0336',
+z : '\u0336'+'z'+'\u0336',
+'\u0020' : '\u0336'+'\u0020'+'\u0336',
+'\u002C' : '\u0336'+'\u002C'+'\u0336',
+'\u003B' : '\u0336'+'\u003B'+'\u0336',
+'\u002E' : '\u0336'+'\u002E'+'\u0336',
+'\u003A' : '\u0336'+'\u003A'+'\u0336',
+'\u005F' : '\u0336'+'\u005F'+'\u0336',
+'\u003F' : '\u0336'+'\u003F'+'\u0336',
+'\u0021' : '\u0336'+'\u0021'+'\u0336',
+'\u00DF' : '\u0336'+'\u00Df'+'\u0336',
+'\u00E4' : '\u0336'+'\u00E4'+'\u0336',
+'\u00F6' : '\u0336'+'\u00F6'+'\u0336',
+'\u00FC' : '\u0336'+'\u00FC'+'\u0336',
+}
+
+for (i in replaceTable) {
+  replaceTable[replaceTable[i]] = i
+}
+
+    </script>
+
+  </head>
+
+  <body>
+
+    <form name="f">
+      <label>Schreibe in den Kasten hier drunter <b>dein</b>en <b>Text:</b></label><br>
+      <textarea rows="4" cols="120" name="original" onKeyUp="replace()"></textarea>
+      <br>
+      <br>
+        <label> d̶̶u̶̶r̶̶c̶̶h̶̶g̶̶e̶̶s̶̶t̶̶r̶̶i̶̶c̶̶h̶̶e̶̶n̶̶  </label>
+      </div>
+      </span>
+      <br><textarea rows="4" cols="120" name="replaceped"> </textarea>
+    </form>
+  </body>
+</html>

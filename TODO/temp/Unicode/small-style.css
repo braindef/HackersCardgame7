@@ -1,0 +1,109 @@
+html {
+padding: 8px 25px;
+list-style: none;
+background: #282828;
+color: #ffffff; 
+font-family: monospace; }
+
+/* unvisited link */
+a:link {
+    color: #FFFFFF;
+}
+
+/* visited link */
+a:visited {
+    color: #BBBBBB;
+}
+
+
+.slidein {
+  font-size: 2em; 
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left:5%;
+    width:100%
+  }
+  
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+}
+
+.blink {
+    animation-duration: 1s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.fl
+{
+    height: 470px;
+    float: left;
+    margin: 10;
+    padding: 10;
+} 
+
+.center
+{
+
+  text-align: center;
+  margin: 0 auto;
+}
+
+textarea {
+    background: #282828;
+    color: #99f; 
+    font-family: monospace;
+    float: right;
+    margin: 10;
+    padding: 10;
+    width:99%
+
+}
+
+.lightblue1 {
+    background: #282828;
+    color: #faf; 
+    font-family: monospace;
+    float: none;
+    margin: 5;
+    padding: 5;
+    width:92%
+}
+
+.myParagraph {
+    height: 40px;
+    font-size:20px;
+    background: #282828;
+    color: #99f; 
+    font-family: monospace;
+    float: right;
+    margin: 10;
+    padding: 10;
+    width:99%;
+    resize: none; 
+}
+
+
+.w70
+{
+ width: 60%;
+ height: 82;
+}​
