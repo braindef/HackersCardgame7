@@ -478,7 +478,7 @@
        y="197.85098"
        rx="3.5534737"
        ry="3.8487499"
-       inkscape:export-filename="/home/marc/HackersCardgame6/png/EN/m139.png"
+       inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
        inkscape:export-xdpi="582.27002"
        inkscape:export-ydpi="582.27002" />
   </g>
@@ -512,7 +512,7 @@
       <flowRoot
          inkscape:export-ydpi="582.27002"
          inkscape:export-xdpi="582.27002"
-         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
          transform="matrix(0.26458333,0,0,0.26458333,0,3.1750001)"
          style="font-style:normal;font-weight:normal;font-size:8px;line-height:1;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
          id="flowRoot3256"
@@ -537,7 +537,7 @@
        x="42.28204"
        y="63.840492"
        id="text3266"
-       inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+       inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
        inkscape:export-xdpi="582.27002"
        inkscape:export-ydpi="582.27002"><tspan
          sodipodi:role="line"
@@ -550,7 +550,7 @@
        id="flowRoot3322"
        style="font-style:normal;font-weight:normal;font-size:10.66666698px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,3.1805074,1.5288087)"
-       inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+       inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
        inkscape:export-xdpi="582.27002"
        inkscape:export-ydpi="582.27002"><flowRegion
          id="flowRegion3324"><rect
@@ -566,7 +566,7 @@
        x="24.321527"
        y="57.137398"
        id="text3356"
-       inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+       inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
        inkscape:export-xdpi="582.27002"
        inkscape:export-ydpi="582.27002"><tspan
          sodipodi:role="line"
@@ -580,7 +580,7 @@
        x="57.402966"
        y="57.300941"
        id="text3356-1"
-       inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+       inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
        inkscape:export-xdpi="582.27002"
        inkscape:export-ydpi="582.27002"><tspan
          sodipodi:role="line"
@@ -873,7 +873,7 @@
          y="15.646223"
          rx="0"
          ry="0"
-         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
          inkscape:export-xdpi="582.27002"
          inkscape:export-ydpi="582.27002" />
       <text
@@ -882,7 +882,7 @@
          x="10.173446"
          y="22.105261"
          id="text608"
-         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
          inkscape:export-xdpi="582.27002"
          inkscape:export-ydpi="582.27002"><tspan
            sodipodi:role="line"
@@ -895,13 +895,19 @@
          id="path1314"
          cx="22.521952"
          cy="31.234865"
-         r="4.0066385" />
+         r="4.0066385"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:2.80775261px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21058144"
          x="17.583536"
          y="29.930376"
-         id="text1318"><tspan
+         id="text1318"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002"><tspan
            sodipodi:role="line"
            id="tspan1316"
            x="17.583536"
@@ -911,85 +917,127 @@
          style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="M 36.994838,18.834808 V 52.902839"
          id="path1320"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <circle
          style="display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.7958985;stroke-miterlimit:4;stroke-dasharray:none"
          id="path1314-3"
          cx="15.90634"
          cy="35.986923"
-         r="1.8635527" />
+         r="1.8635527"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <circle
          style="display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.7958985;stroke-miterlimit:4;stroke-dasharray:none"
          id="path1314-3-6"
          cx="21.590176"
          cy="39.34132"
-         r="1.8635527" />
+         r="1.8635527"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <circle
          style="display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.7958985;stroke-miterlimit:4;stroke-dasharray:none"
          id="path1314-3-7"
          cx="27.553545"
          cy="38.50272"
-         r="1.8635527" />
+         r="1.8635527"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <circle
          style="display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.7958985;stroke-miterlimit:4;stroke-dasharray:none"
          id="path1314-3-5"
          cx="31.373827"
          cy="33.191593"
-         r="1.8635527" />
+         r="1.8635527"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <circle
          style="display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.7958985;stroke-miterlimit:4;stroke-dasharray:none"
          id="path1314-3-3"
          cx="18.515312"
          cy="45.491043"
-         r="1.8635527" />
+         r="1.8635527"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.21091306;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-6-1)"
          d="m 25.83016,31.940719 4.798247,1.250874"
          id="path1389"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <path
          style="display:inline;fill:none;stroke:#000000;stroke-width:0.21091306;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-6-1-5)"
          d="m 24.529023,33.867937 2.459275,4.248712"
          id="path1389-2"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <path
          style="display:inline;fill:none;stroke:#000000;stroke-width:0.21091306;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-6-1-5-9)"
          d="m 21.87464,34.578636 -0.242073,3.392186"
          id="path1389-2-2"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <path
          style="display:inline;fill:none;stroke:#000000;stroke-width:0.21091306;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-6-1-5-9-7)"
          d="m 19.479573,32.98021 -2.449272,1.942682"
          id="path1389-2-2-9"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <path
          style="display:inline;fill:none;stroke:#000000;stroke-width:0.21091306;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-6-1-5-9-3)"
          d="M 21.027907,40.853651 19.33633,44.311724"
          id="path1389-2-2-0"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <path
          style="display:inline;fill:none;stroke:#000000;stroke-width:0.21091306;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend-7-6-1-5-9-3-6)"
          d="M 20.545281,33.955056 18.194838,44.067669"
          id="path1389-2-2-0-6"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <circle
          style="display:inline;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.50043631;stroke-miterlimit:4;stroke-dasharray:none"
          id="path1314-3-6-1"
          cx="31.570265"
          cy="48.213371"
-         r="1.1717441" />
+         r="1.1717441"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:1.68465149px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.21058144"
          x="24.467653"
          y="51.134033"
-         id="text4242"><tspan
+         id="text4242"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002"><tspan
            sodipodi:role="line"
            x="24.467653"
            y="51.134033"
@@ -999,36 +1047,54 @@
          style="fill:none;stroke:#000000;stroke-width:0.21058144px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4264)"
          d="M 32.099444,35.09188 31.702911,46.393071"
          id="path4248"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.21058144px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4346)"
          d="m 28.233247,40.147676 2.512555,6.470735"
          id="path4250"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.21058144px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4528)"
          d="m 20.686769,45.794761 8.972517,2.313228"
          id="path4252"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.21058144px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker4434)"
          d="m 23.350486,40.782768 6.799485,6.3789"
          id="path4254"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <circle
          style="display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.61038107;stroke-miterlimit:4;stroke-dasharray:none"
          id="path1314-8"
          cx="52.439007"
          cy="31.775204"
-         r="1.4291737" />
+         r="1.4291737"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:2.52967668px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.18972574"
          x="39.97028"
          y="22.65807"
-         id="text4919"><tspan
+         id="text4919"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002"><tspan
            sodipodi:role="line"
            id="tspan4917"
            x="39.97028"
@@ -1039,37 +1105,55 @@
          id="path1314-8-7"
          cx="57.279289"
          cy="34.100548"
-         r="1.4291737" />
+         r="1.4291737"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <circle
          style="display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.61038107;stroke-miterlimit:4;stroke-dasharray:none"
          id="path1314-8-9"
          cx="53.313957"
          cy="38.363277"
-         r="1.4291737" />
+         r="1.4291737"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <circle
          style="display:inline;fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.61038107;stroke-miterlimit:4;stroke-dasharray:none"
          id="path1314-8-2"
          cx="47.861629"
          cy="38.462414"
-         r="1.4291737" />
+         r="1.4291737"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <circle
          style="display:inline;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.61038107;stroke-miterlimit:4;stroke-dasharray:none"
          id="path1314-8-0"
          cx="43.004101"
          cy="36.479748"
-         r="1.4291737" />
+         r="1.4291737"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <circle
          style="display:inline;fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.61038107;stroke-miterlimit:4;stroke-dasharray:none"
          id="path1314-8-23"
          cx="46.077232"
          cy="32.613548"
-         r="1.4291737" />
+         r="1.4291737"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:1.99223721px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14941779"
          x="21.508642"
          y="21.262697"
-         id="text4962"><tspan
+         id="text4962"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002"><tspan
            sodipodi:role="line"
            id="tspan4960"
            x="21.508642"
@@ -1092,13 +1176,19 @@
          d="m 25.585438,30.797825 25.805621,0.880738"
          id="path4968"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cc" />
+         sodipodi:nodetypes="cc"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          x="51.875469"
          y="31.854712"
-         id="text5402"><tspan
+         id="text5402"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002"><tspan
            sodipodi:role="line"
            id="tspan5400"
            x="51.875469"
@@ -1108,23 +1198,35 @@
          style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5528)"
          d="m 52.403909,32.779485 -4.579837,5.020207"
          id="path5404"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <path
          style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker5416)"
          d="m 53.37272,32.251041 3.611026,1.453219"
          id="path5406"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <path
          style="fill:none;stroke:#0000ff;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
          d="m 32.014826,48.280473 c 7.286776,0.48532 12.984184,-1.850628 15.280804,-9.027565"
          id="path5642"
-         inkscape:connector-curvature="0" />
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:1.73188233px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12989117"
          x="47.537052"
          y="44.043468"
-         id="text6154"><tspan
+         id="text6154"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
+         inkscape:export-xdpi="582.27002"
+         inkscape:export-ydpi="582.27002"><tspan
            sodipodi:role="line"
            id="tspan6152"
            x="47.537052"
@@ -1155,7 +1257,7 @@
          y="15.646222"
          rx="4.4987354"
          ry="0"
-         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
          inkscape:export-xdpi="582.27002"
          inkscape:export-ydpi="582.27002" />
       <text
@@ -1164,7 +1266,7 @@
          x="65.344055"
          y="53.516613"
          id="text8724"
-         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
          inkscape:export-xdpi="582.27002"
          inkscape:export-ydpi="582.27002"><tspan
            sodipodi:role="line"
@@ -1178,7 +1280,7 @@
          x="9.8077641"
          y="54.259716"
          id="text560"
-         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
          inkscape:export-xdpi="582.27002"
          inkscape:export-ydpi="582.27002"><tspan
            sodipodi:role="line"
@@ -1192,7 +1294,7 @@
          x="83.279289"
          y="62.946438"
          id="text1236"
-         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
          inkscape:export-xdpi="582.27002"
          inkscape:export-ydpi="582.27002"><tspan
            sodipodi:role="line"
@@ -1206,7 +1308,7 @@
          x="-32.450779"
          y="13.442448"
          id="text3549"
-         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
          inkscape:export-xdpi="582.27002"
          inkscape:export-ydpi="582.27002"><tspan
            sodipodi:role="line"
@@ -1231,7 +1333,7 @@
        y="197.85098"
        rx="2.6935785"
        ry="2.9227133"
-       inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+       inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
        inkscape:export-xdpi="582.27002"
        inkscape:export-ydpi="582.27002" />
   </g>
@@ -1249,7 +1351,7 @@
        y="2.6522903"
        rx="3.9126155"
        ry="4.1126561"
-       inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+       inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
        inkscape:export-xdpi="582.27002"
        inkscape:export-ydpi="582.27002" />
   </g>
@@ -1320,7 +1422,7 @@
          width="62.100834"
          id="rect3069"
          style="fill:#00aa88;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-         inkscape:export-filename="/home/marc/HackersCardgame6/png/EN/m139.png"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
          inkscape:export-xdpi="582.27002"
          inkscape:export-ydpi="582.27002" />
     </g>
@@ -1446,7 +1548,7 @@
          x="39.348"
          y="9.938756"
          id="text17175"
-         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+         inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
          inkscape:export-xdpi="582.27002"
          inkscape:export-ydpi="582.27002"><tspan
            sodipodi:role="line"
@@ -2852,7 +2954,7 @@
         <g
            id="g2276"
            transform="translate(0.70929527,21.932335)"
-           inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+           inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
            inkscape:export-xdpi="582.27002"
            inkscape:export-ydpi="582.27002">
           <rect
@@ -3504,7 +3606,7 @@
            width="9.301053"
            id="rect917-6"
            style="display:inline;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none"
-           inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m142.png"
+           inkscape:export-filename="/home/marc/Daten.2020/code/HackersCardgame7/png/EN/m143.png"
            inkscape:export-xdpi="582.27002"
            inkscape:export-ydpi="582.27002" />
       </g>
