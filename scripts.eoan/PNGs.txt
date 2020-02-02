@@ -20,6 +20,7 @@
 ../cards/EN/hacking/electronics/e3.svg
 ../cards/EN/hacking/electronics/e4.svg
 ../cards/EN/hacking/electronics/e2.svg
+../cards/EN/hacking/electronics/e6.svg
 ../cards/EN/hacking/electronics/e1.svg
 ../cards/EN/hacking/electronics/e5.svg
 ../cards/EN/hacking/r1.svg
@@ -39,6 +40,7 @@
 ../cards/EN/methods/m115.svg
 ../cards/EN/methods/m97.svg
 ../cards/EN/methods/m65.svg
+../cards/EN/methods/m142.svg
 ../cards/EN/methods/m10.svg
 ../cards/EN/methods/m38.svg
 ../cards/EN/methods/m81.svg
@@ -48,7 +50,9 @@
 ../cards/EN/methods/m91.svg
 ../cards/EN/methods/m26.svg
 ../cards/EN/methods/m59.svg
+../cards/EN/methods/m143.svg
 ../cards/EN/methods/m96.svg
+../cards/EN/methods/m140.svg
 ../cards/EN/methods/m87.svg
 ../cards/EN/methods/m18.svg
 ../cards/EN/methods/m108.svg
@@ -101,13 +105,16 @@
 ../cards/EN/methods/t63.svg
 ../cards/EN/methods/m116.svg
 ../cards/EN/methods/m57.svg
+../cards/EN/methods/m139.svg
 ../cards/EN/methods/m112.svg
 ../cards/EN/methods/m41.svg
+../cards/EN/methods/m135.svg
 ../cards/EN/methods/m15-mod.svg
 ../cards/EN/methods/m50.svg
 ../cards/EN/methods/m69.svg
 ../cards/EN/methods/m118.svg
 ../cards/EN/methods/m77.svg
+../cards/EN/methods/m137.svg
 ../cards/EN/methods/m130.svg
 ../cards/EN/methods/m19.svg
 ../cards/EN/methods/m124.svg
@@ -123,7 +130,9 @@
 ../cards/EN/methods/m132.svg
 ../cards/EN/methods/m128.svg
 ../cards/EN/methods/m24.svg
+../cards/EN/methods/m138.svg
 ../cards/EN/methods/m55.svg
+../cards/EN/methods/m136.svg
 ../cards/EN/methods/m93.svg
 ../cards/EN/methods/m84.svg
 ../cards/EN/methods/m129.svg
@@ -162,6 +171,7 @@
 ../cards/EN/methods/m88b.svg
 ../cards/EN/methods/m106.svg
 ../cards/EN/methods/m120.svg
+../cards/EN/methods/m141.svg
 ../cards/EN/methods/m16.svg
 ../cards/EN/methods/m90.svg
 ../cards/EN/methods/m3.svg
@@ -236,6 +246,7 @@
 ../cards/EN/socialEngineering/archetypes/at1.svg
 ../cards/EN/socialEngineering/archetypes/g2.svg
 ../cards/EN/socialEngineering/dirthyTricks/dt2.svg
+../cards/EN/socialEngineering/dirthyTricks/dt4.svg
 ../cards/EN/socialEngineering/dirthyTricks/dt3.svg
 ../cards/EN/socialEngineering/dirthyTricks/dt1.svg
 ../cards/EN/deletedCards/dc6.svg

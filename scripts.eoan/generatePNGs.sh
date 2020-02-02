@@ -23,7 +23,7 @@ pngpath=$(dirname $(pwd))/png
 mkdir -p $pngpath/$1/
 find ../cards/$1 -name "*.svg" >./PNGs.txt
 
-cp m41b.png $pngpath/$1/
+cp m41*.png $pngpath/$1/
 
 counter=0
 
@@ -34,7 +34,7 @@ for i in $(cat ./PNGs.txt)
   /usr/bin/inkscape $i &
   sleep 3
   xdotool key Ctrl+Alt+a
-  sleep 1
+  sleep 2
   xdotool key Ctrl+Shift+e
   sleep 0.3
   xdotool key Tab Tab Tab KP_Space
