@@ -1,23 +1,29 @@
-#!/bin/bash
-
-echo "
-
-"
-
-find ../cards/DE -name "*.svg" >./print.txt
+#!/bin/sh
 
 
- for i in $(cat ./print.txt)
-  do
 
-   echo $i
-   /usr/bin/inkscape $i &
+if  [ "$1" = "" ] || [ "$2" = "" ] 
+then
+	echo -e "
+	\e[39m
+	Usage:
+	------
+	To edit two languages (eg English and German): \e[36meditMultiLang.sh EN DE\e[39m
 
-   echo ../cards/EN/$(basename $(dirname $i))/$(basename $i)
-   /usr/bin/inkscape ../cards/EN/$(basename $(dirname $i))/$(basename $i) &
-
-   echo press [ENTER] for the next card
-   read
-  done
+	"
+	exit 0
+fi
 
 
+
+
+find ../cards/$1 -name '*.svg' > translateCards.txt
+
+for i in $(cat translateCards.txt)
+do
+	echo FILE: $i
+	echo $i | cut -d/ -f4-
+	inkscape ../cards/$1/$(echo $i | cut -d/ -f4-) &
+	inkscape ../cards/$2/$(echo $i | cut -d/ -f4-)
+	read -n 1 -s -r -p "press key for next card in both languages ($1 / $2)."
+done
