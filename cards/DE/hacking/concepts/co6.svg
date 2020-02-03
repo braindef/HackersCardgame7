@@ -105,17 +105,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.2338439"
-     inkscape:cx="30.108331"
-     inkscape:cy="197.49581"
+     inkscape:zoom="2.1242262"
+     inkscape:cx="177.50329"
+     inkscape:cy="198.4252"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer25"
+     inkscape:current-layer="layer26"
      showgrid="false"
-     inkscape:window-width="1920"
+     inkscape:window-width="960"
      inkscape:window-height="1016"
-     inkscape:window-x="0"
+     inkscape:window-x="960"
      inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -186,7 +186,7 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot3256"
-       style="font-style:normal;font-weight:normal;font-size:7.33333349px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:7.06666708px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
        transform="matrix(0.26458333,0,0,0.26458333,0,2.1166667)"
        inkscape:export-filename="/home/marc/Daten.2019/code/HackersCardgame3/png/EN/co6.png"
        inkscape:export-xdpi="363.92001"
@@ -198,19 +198,15 @@
            x="32.526913"
            y="210.88132" /></flowRegion><flowPara
          style="text-align:justify;text-anchor:start"
-         id="flowPara26450">With stimulus-reaction-habits, <flowSpan
+         id="flowPara1350">Stimuli-Reaktions-Habits: <flowSpan
    style="fill:#008000"
-   id="flowSpan11544">for example if you get always a reward</flowSpan> (m8, see also card b1, b2, b3, t1...) <flowSpan
+   id="flowSpan1360">wenn man immer eine Belohnung erhält</flowSpan> (m8, siehe auch Karte b1, b2, b3, t1 ...) <flowSpan
    style="fill:#ff0000"
-   id="flowSpan11546">and after 1000 repetitions you will get punishment instead of a reward</flowSpan> (m7) things like like here would happen. Or if a person invests a lot of time in one game and then would be banned forever from the Game, even worse if it was an unfair decision. The problem is if one has something like a <flowSpan
+   id="flowSpan1362">und dann nach 1000 Wiederholungen aber eine Bestrafung statt einer Belohnung (m7) bekommt</flowSpan> kann man agressionen erzeugen. Oder wenn eine Person viel Zeit in ein Spiel investiert und dann für immer vom Spiel ausgeschlossen wird, noch schlimmer, wenn es eine unfaire Entscheidung war induziert das Aggression. Problem / Problemumgehung ist, wenn man so etwas wie ein <flowSpan
    style="fill:#808000"
-   id="flowSpan11548">spinal cord implant</flowSpan>, then the whole reward /punishment thing becomes obsolete. So in both cases Computers <flowSpan
-   style="fill:#ff0000"
-   id="flowSpan11550">can produce people that run amok</flowSpan>. But with spinal-cord remote controlled he would not be the real murderer, and you can not blame only him, because <flowSpan
-   style="fill:#ff0000"
-   id="flowSpan11552">the person that remote controlled him would just kill with the next &quot;BOT&quot;</flowSpan>. Try to find both, the BOT and the person that tries to make the &quot;BOT&quot; run amok. https://marclandolt.ch/ml_buzzernet/2016/04/25/vorstufe-zu-breivik/</flowPara><flowPara
+   id="flowSpan2432">Rückenmarksimplantat</flowSpan> hat, dann wird die ganze Belohnungs- / Bestrafungssache zwar nicht verhindert, aber man kann verhindern, dass der Täter / das Opfer vom Balkon springt. So ferngesteuert hätte man wenn man den Mörder fasst das Problem erst zur Hälfte gelöst aber noch nicht behoben. Die Steuernde Person würde mit dem nächsten Fergesteuerten töten. Man muss BOT, Server und Admin finden. https://marclandolt.ch/ml_buzzernet/2016/04/25/vorstufe-zu-breivik/</flowPara><flowPara
          style="text-align:justify;text-anchor:start"
-         id="flowPara26454" /></flowRoot>    <text
+         id="flowPara2430" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52777767px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="42.28204"
@@ -492,18 +488,23 @@
        inkscape:groupmode="layer">
       <text
          id="text8685"
-         y="13.757085"
+         y="11.111254"
          x="40.941513"
-         style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-weight:normal;font-size:5.29166651px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
          xml:space="preserve"
          inkscape:export-filename="/home/marc/Daten.2019/code/HackersCardgame3/png/EN/co6.png"
          inkscape:export-xdpi="363.92001"
          inkscape:export-ydpi="363.92001"><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:GNUTypewriter;-inkscape-font-specification:GNUTypewriter;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332"
-           y="13.757085"
+           y="11.111254"
            x="40.941513"
            sodipodi:role="line"
-           id="tspan11540">induced rage</tspan></text>
+           id="tspan11540">induzierte</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:GNUTypewriter;-inkscape-font-specification:GNUTypewriter;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.26458332"
+           y="16.615826"
+           x="40.941513"
+           sodipodi:role="line"
+           id="tspan1358">Aggression</tspan></text>
     </g>
     <g
        style="display:none"
