@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 <div class="text">
 <h1>Hackers Cardgame</h1>
 
-<a href="https://github.com/braindef/HackersCardgame6"><img src="./README.png"></a>
+<a href="https://github.com/braindef/HackersCardgame7"><img src="./README.png"></a>
 <br><br>
 
 please respect the <a href="../../LICENSE">License</a><br>
@@ -63,12 +63,12 @@ Maybe i should call my paranoja a good situational awareness like Andy does...
 <br>
 <br>
 Source:<br>
-<a href="https://github.com/braindef/HackersCardgame6">https://github.com/braindef/HackersCardgame6</a><br>
+<a href="https://github.com/braindef/HackersCardgame7">https://github.com/braindef/HackersCardgame6</a><br>
 <a href="https://2hmorvqnlhwyrhvl6dwv4jqgnvhlaf2wxnrbmbhrbpmx5x3qqiwprjyd.onion/">https://2hmorvqnlhwyrhvl6dwv4jqgnvhlaf2wxnrbmbhrbpmx5x3qqiwprjyd.onion/</a>
 <br><br>
 
 <h3>Printing Templates:</h3>
-<a href="https://github.com/braindef/HackersCardgame6/tree/master/pdf/EN/A4">Github (PDF)</a>
+<a href="https://github.com/braindef/HackersCardgame7/tree/master/pdf/EN/A4">Github (PDF)</a>
 <br>
 <a href="../../pdf/EN/A4/">local (PDF)</a><br>
 Printing the cards gives you a offline copy, cutting them out makes you focus ~1 Min per card that could be useful for your Learning Curve.
