@@ -63,7 +63,7 @@ Maybe i should call my paranoja a good situational awareness like Andy does...
 <br>
 <br>
 Source:<br>
-<a href="https://github.com/braindef/HackersCardgame7">https://github.com/braindef/HackersCardgame6</a><br>
+<a href="https://github.com/braindef/HackersCardgame7">https://github.com/braindef/HackersCardgame7</a><br>
 <a href="https://2hmorvqnlhwyrhvl6dwv4jqgnvhlaf2wxnrbmbhrbpmx5x3qqiwprjyd.onion/">https://2hmorvqnlhwyrhvl6dwv4jqgnvhlaf2wxnrbmbhrbpmx5x3qqiwprjyd.onion/</a>
 <br><br>
 
