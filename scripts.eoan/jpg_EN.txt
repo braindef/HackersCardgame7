@@ -1,2 +1,1 @@
-../png/EN/t38.png
-../png/EN/t38.svg.2019?12_20_04_39_31.0.png
+../png/EN/m41b.png
