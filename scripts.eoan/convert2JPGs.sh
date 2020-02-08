@@ -19,6 +19,10 @@ fi
 echo  "../png/$1/ => ../jpg/$1/"
 mkdir --parents ../jpg/$1
 
+cp ../index.php ../jpg/$1
+cp cardNames.csv ../jpg/$1
+
+
 find ../png/$1/$2 -name '*.png' >./jpg_$1.txt
 
 echo liste
