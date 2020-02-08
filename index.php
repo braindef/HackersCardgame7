@@ -103,7 +103,13 @@ Printing the cards gives you a offline copy, cutting them out makes you focus ~1
 <p>
 
 -->
-   <?php
+<?php
+
+    $csv = array_map('str_getcsv', file('cardNames.csv'));
+    array_walk($csv, function(&$a) use ($csv) {
+      $a = array_combine($csv[0], $a);
+    });
+    array_shift($csv); # remove column header
 
 $files = glob("*.*");
 natsort ($files);
@@ -124,6 +130,7 @@ foreach($files as $file)
     echo '<div id="'.$parts[0].'" class="card" style="border: 10px solid black;float:left;text-align:center;">';
     echo "<font size=4em color=yellow><b>" . $parts[0] . "</b></font>" . "<hr style='height:0.01em; visibility:hidden;' />";
     echo '<a href="./'.$file .'" id="'.$parts[0].'"'.' target="_blank"><img width=200 src="'.$file .'" ></a><br><br>';
+    echo '<font size=0.5em>'.$data.'</font>';
     echo '</div>
 ';
 
