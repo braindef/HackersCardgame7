@@ -111,6 +111,8 @@ Printing the cards gives you a offline copy, cutting them out makes you focus ~1
     });
     array_shift($csv); # remove column header
 
+
+    echo $csv;
 $files = glob("*.*");
 natsort ($files);
 
