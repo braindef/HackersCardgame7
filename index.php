@@ -112,7 +112,10 @@ Printing the cards gives you a offline copy, cutting them out makes you focus ~1
     array_shift($csv); # remove column header
 
 
-    echo $csv;
+//    print_r($csv);
+//    for ($i = 0; $i < sizeof($csv); $i++)
+//	if ($csv[$i]["card"] == "a2") echo $csv[$i]["english"];    
+    
 $files = glob("*.*");
 natsort ($files);
 
@@ -131,8 +134,14 @@ foreach($files as $file)
     $parts = explode(".", $file);
     echo '<div id="'.$parts[0].'" class="card" style="border: 10px solid black;float:left;text-align:center;">';
     echo "<font size=4em color=yellow><b>" . $parts[0] . "</b></font>" . "<hr style='height:0.01em; visibility:hidden;' />";
-    echo '<a href="./'.$file .'" id="'.$parts[0].'"'.' target="_blank"><img width=200 src="'.$file .'" ></a><br><br>';
-    echo '<font size=0.5em>'.$data.'</font>';
+    echo '<a href="./'.$file .'" id="'.$parts[0].'"'.' target="_blank"><img width=200 src="'.$file .'" ></a><br>';
+    echo  '<font color=red size=1px>';
+
+//    print_r($csv);
+    for ($i = 0; $i < sizeof($csv); $i++)
+      if ($csv[$i]["card"] == $parts[0]) echo $csv[$i]["english"] . "<br>" . $csv[$i]["german"] ;  
+    //
+    echo '</font><br><br>';
     echo '</div>
 ';
 
