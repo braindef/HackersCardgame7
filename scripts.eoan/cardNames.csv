@@ -70,15 +70,25 @@ e2,cavity magnetron,Holraum Magnetron
 e3,[tunnel|ESAKI] diode,Tunnel Diode
 e4,antenna,Antenne
 e5,multiple sensors,sensor array
-e6,equation group [malware|built-in]
+e6,equation group [malware|built-in],equation group [malware|built-in]
 endo1,endocrinology,Endokrinologie
 env1,save energy,Energie sparen
 env2,slums,Slums
-env3,ad busting,
+env3,ad busting,ad busting
 eye1,retina ccd,Augen Kamera
 g1,le chuck,le chuck
 g2,Guybrush Threepwood,Guybrush Treepwood
 g3,Stan (M$ salesman),Stan (M$ Verkäufer)
+g4,voodoo-lady,Voodoo Hexe
+gp1,COEXIST,COEXIST
+ha1,senior hacker,Senior Hacker
+ibm1,vintage computing,alte Computer (doppelt)
+ja1,worrier archetype 1,KriegerArchetyp 1
+ja2,angle archetype,EngelArchetyp
+ja3,wrong angle archetype,Falscher EngelArchetyp
+ja4,worrier archetype 2,KriegerArchetyp 2
+ja5,father archetype,VaterArchetyp (typo)
+ja6,mother archetype,MutterArchetyp
 
 
 
