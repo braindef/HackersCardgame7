@@ -327,16 +327,16 @@ t25,m-com-station,m-com-station
 t26,Antenna (Wasserflue),Antenne (Wasserflue)
 t27,Fill-Gun,Fill-Device
 t28,Needle Array,NadelArray
-n29,mobile black-site m-com-station,Mobile m-com-station
-m30,mri/mrt,mri/mrt
-m31,group policies,GruppenRichtlinien
-m32,Loop Recorder (Part 3),Loop Recorder (Teil 3)
-m33,Industrial Automation,Industrielle Automatisierung
-m34,hiding data and evidence,Daten und Beweismittel verstecken
-m35,CIA Mainframe,CIA Mainframe
-m36,(Cyber-)Isolation Cell,Cyber-IsolationsZelle
-m37,ICD10-F44.x Chess Clock,ICD10-F44.x Schachuhr
-m38,infrared ray weapon maybe in every display?,infrarot waffe in bildschirmen?
+t29,mobile black-site m-com-station,Mobile m-com-station
+t30,mri/mrt,mri/mrt
+t31,group policies,GruppenRichtlinien
+t32,Loop Recorder (Part 3),Loop Recorder (Teil 3)
+t33,Industrial Automation,Industrielle Automatisierung
+t34,hiding data and evidence,Daten und Beweismittel verstecken
+t35,CIA Mainframe,CIA Mainframe
+t36,(Cyber-)Isolation Cell,Cyber-IsolationsZelle
+t37,ICD10-F44.x Chess Clock,ICD10-F44.x Schachuhr
+t38,infrared ray weapon maybe in every display?,infrarot waffe in bildschirmen?
 t39,crime scene 3D scanner,3D Tatort Scanner
 w1,whistleblower,whistleblower
 w2,whistleblower blowjob,whistleblower blowjob
