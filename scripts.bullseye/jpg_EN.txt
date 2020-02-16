@@ -1,3 +1,0 @@
-../png/EN/ma1.png
-../png/EN/ma10.png
-../png/EN/ma11.png

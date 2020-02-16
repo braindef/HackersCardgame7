@@ -10,8 +10,6 @@ Usage:
 ------
 To generate the Enlgish PNGs sheets: \e[36m./generatePNGs.sh EN\e[39m
 To generate the German  PNGs sheets: \e[36m./generatePNGs.sh DE\e[39m
-
-
 "
 exit 0
 fi
@@ -66,6 +64,4 @@ for i in $(cat ./PNGs.txt)
   sleep 2
   xdotool key Alt+w
 done
-
-
 
