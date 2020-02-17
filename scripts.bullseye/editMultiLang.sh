@@ -23,10 +23,22 @@ for i in $(cat translateCards.txt)
 do
 	echo FILE: $i
 	echo $i | cut -d/ -f4-
-	#inkscape ../cards/$1/$(echo $i | cut -d/ -f4-) &
-	xdotool key Super_L+Left
-	#inkscape ../cards/$2/$(echo $i | cut -d/ -f4-) &
-	xdotool key Super_L+Right
+	inkscape ../cards/$1/$(echo $i | cut -d/ -f4-) &
+	sleep 6
+	echo $i
+	echo $i | tr -cd '\/'
+	slashes=$(echo $i | tr -cd '\/' | wc -c)
+	echo slashes: $slashes
+	num1="$(($slashes+1))"
+	echo $num1
+	file=$(echo $i | cut -d "/" -f$num1)
+	nameOnly=$(echo $file |cut -d. -f1)
+	echo $nameOnly
+	wmctrl -pl
+	wmctrl -pl |grep $file |cut -d" " -f1
+	wmctrl -ia $(wmctrl -pl |grep $file |cut -d" " -f1)
+	wmctrl -ia $(wmctrl -pl |grep $file |cut -d" " -f1) -e 0,0,0,1000,1080
+	inkscape ../cards/$2/$(echo $i | cut -d/ -f4-) &
 	read var
 	echo $var
 done
