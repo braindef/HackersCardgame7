@@ -36,7 +36,8 @@ do
 	echo $nameOnly
 	wmctrl -pl
 	wmctrl -pl |grep $file |cut -d" " -f1
-	./moveLeft.sh $(wmctrl -pl |grep $file |cut -d" " -f1)
+	#./moveLeft.sh $(wmctrl -pl |grep $file |cut -d" " -f1)
+	./moveLeft.sh inkscape
 
 	inkscape ../cards/$2/$(echo $i | cut -d/ -f4-) &
 

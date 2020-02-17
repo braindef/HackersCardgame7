@@ -24,5 +24,9 @@ X=$(( $SCREEN_WIDTH / 2 ))
 
 Y=$TOPMARGIN
 
-wmctrl -vxa $1 -b remove,maximized_vert,maximized_horz && wmctrl -vxa $1 -e 0,$X,$Y,$W,$H
+wmctrl -vxa $1 -b remove,maximized_vert,maximized_horz
+echo wmctrl -vxa $1 -b remove,maximized_vert,maximized_horz 
+wmctrl -vxa $1 -e 0,$X,$Y,$W,$H
+echo wmctrl -vxa $1 -e 0,$X,$Y,$W,$H
 wmctrl -vxa $1 -e 0,0,0,1000,1080
+echo wmctrl -vxa $1 -e 0,0,0,1000,1080
