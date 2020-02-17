@@ -23,7 +23,10 @@ for i in $(cat translateCards.txt)
 do
 	echo FILE: $i
 	echo $i | cut -d/ -f4-
-	inkscape ../cards/$1/$(echo $i | cut -d/ -f4-) &
-	inkscape ../cards/$2/$(echo $i | cut -d/ -f4-)
-	read -n 1 -s -r -p "press key for next card in both languages ($1 / $2)."
+	#inkscape ../cards/$1/$(echo $i | cut -d/ -f4-) &
+	xdotool key Super_L+Left
+	#inkscape ../cards/$2/$(echo $i | cut -d/ -f4-) &
+	xdotool key Super_L+Right
+	read var
+	echo $var
 done
