@@ -24,7 +24,7 @@ do
 	echo FILE: $i
 	echo $i | cut -d/ -f4-
 	inkscape ../cards/$1/$(echo $i | cut -d/ -f4-) &
-	sleep 6
+	sleep 3
 	echo $i
 	echo $i | tr -cd '\/'
 	slashes=$(echo $i | tr -cd '\/' | wc -c)
@@ -36,9 +36,13 @@ do
 	echo $nameOnly
 	wmctrl -pl
 	wmctrl -pl |grep $file |cut -d" " -f1
-	wmctrl -ia $(wmctrl -pl |grep $file |cut -d" " -f1)
-	wmctrl -ia $(wmctrl -pl |grep $file |cut -d" " -f1) -e 0,0,0,1000,1080
+	./moveLeft.sh $(wmctrl -pl |grep $file |cut -d" " -f1)
+
 	inkscape ../cards/$2/$(echo $i | cut -d/ -f4-) &
+
+        #./moveRight.sh $(wmctrl -pl |grep $file |cut -d" " -f1)
+
+
 	read var
 	echo $var
 done
