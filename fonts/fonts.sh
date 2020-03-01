@@ -19,6 +19,8 @@ find . -name '*.pfb' -exec mv '{}' ../ttf/ \;
 
 cd ..
 
+cp ./notCompressed/* ./ttf
+
 mkdir ~/.fonts
 
 cp ./ttf/*.ttf ~/.fonts
