@@ -20,7 +20,24 @@ color: orange;
 font.monospace
 {
   font-family: "Lucida Console", Monaco, monospace;
-} 
+}
+
+.blink {
+    animation-duration: 1s;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes blink {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
 </style>
 <!-- "thank you" "dear" 1960s paedos for activating CCS Suicide Death Bot against me-->
 </head>
@@ -45,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 <div class="text">
 <h1>Hackers Cardgame</h1>
-
+<h2>If the System now loops "<font color=tomato class="blink">Your girl is beeing raped</font>" then you are a targeted individual and under surveillance, but if they know that I would commit suicide if they do and loudly tell them that I will commit suicide if they would do they also know that they would be murderer and be in a worse situation in their Panopticon</b>
 <a href="https://github.com/braindef/HackersCardgame7"><img src="./README.png"></a>
 <br><br>
 
